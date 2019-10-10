@@ -18,7 +18,7 @@
 
   这个是一段来自官网的介绍
 
-  ![](imgs/1570674535637.png)
+  ![](./git_img/1570674535637.png)
 
   ViewPaper就是简单的页面切换组件，我们往里面填充View，然后就可以使用左滑和右滑来进行View的切换。和RecycleView（或者ListView）很类似，我们都需要使用Adapter（PagerAdapter）来填充数据。google官方文档中，推荐我们使用Fragment来填充ViewPager。
 
@@ -266,7 +266,7 @@ RecycleView的适配器我就不展示code了。在这里个里面我们有一�
 
 这也就解释了为什么我使用`PhoneMsg.articleListAdapters`来保存recycleView的适配器了，因为在Fragment createView的时候，我们根据position的位置来获得对应的适配器。那么我们将recycleview的适配器添加到Bundle中呢？当然没有问题，不过我们就需要对recycleview的适配器进行序列化了。
 
-![](imgs/1570731948788.png)
+![](./git_img/1570731948788.png)
 
 
 
